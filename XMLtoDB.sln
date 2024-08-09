@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLtoDB", "XMLtoDB\XMLtoDB.csproj", "{89221BFE-7811-49B5-B24F-D22C4E5174A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89221BFE-7811-49B5-B24F-D22C4E5174A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89221BFE-7811-49B5-B24F-D22C4E5174A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89221BFE-7811-49B5-B24F-D22C4E5174A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89221BFE-7811-49B5-B24F-D22C4E5174A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9CD41A6-64F2-4ED6-8F46-0D295EA2C881}
+	EndGlobalSection
+EndGlobal
