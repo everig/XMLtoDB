@@ -21,8 +21,8 @@ using (FileStream reader = new FileStream("..\\..\\..\\orders.xml", FileMode.Ope
 }
 
 
-DbContext db = new DbContext();
-try
+
+using (DbContext db = new DbContext())
 {
     foreach (var order in orders)
     {
@@ -36,19 +36,11 @@ try
 
             db.AddProduct(product.Name, product.Quantity.ToString(), product.Price.ToString(), order.No.ToString());
         }
-        
+
     }
     db.ExecuteQuery();
-
-}
-finally
-{
-    db.ResetQuery();
 }
 
-var user = orders[0].User;
-
-db.AddUser(user.Id.ToString(), user.Fio, user.Email);
 
 
 Console.ReadLine();
